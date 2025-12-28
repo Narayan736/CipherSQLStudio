@@ -1,0 +1,15 @@
+@import 'variables';
+
+// Media query mixin for desktop screens
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+
+// Flexbox center helper
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

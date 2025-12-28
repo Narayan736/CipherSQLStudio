@@ -1,0 +1,23 @@
+// --- THEME PALETTE (Dark Mode) ---
+$bg-body: #0f111a;       // Deepest dark blue/black
+$bg-panel: #1b1e2b;      // Slightly lighter for cards/panels
+$bg-input: #292d3e;      // For inputs/editors
+
+$primary-color: #3a86ff; // Vibrant Blue
+$primary-glow: rgba(58, 134, 255, 0.5);
+
+$secondary-color: #ff006e; // Vibrant Pink/Red for accents
+$success-color: #06d6a0;   // Bright Teal Green
+$warning-color: #ffd166;   // Warm Yellow
+
+$text-main: #e0e6ed;     // White-ish
+$text-muted: #94a3b8;    // Grey text
+$border-color: #2e3440;  // Subtle borders
+
+$font-main: 'Inter', sans-serif;
+$font-code: 'JetBrains Mono', monospace;
+
+// --- BREAKPOINTS ---
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;

@@ -1,0 +1,14 @@
+# Ignore Secrets
+.env
+*.env
+server/.env
+client/.env
+
+# Ignore Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore Misc
+dist/
+.DS_Store
